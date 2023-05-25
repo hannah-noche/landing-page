@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Wix+Madefor+Display&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+@import url("components/testimonial.css");
+
+
+body {
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-size: 18 px;
+	margin: 0 px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.testimonial-slider {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.testimonial-slide {
+  flex: 0 0 auto;
+  width: 100%;
+  scroll-snap-align: start;
+  margin-top: 0px;
+}
+
+.testimonial-slide h4 {
+	margin: 20px 0px 5px;
+ }
+
+.testimonial-slide p {
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.testimonial-slide img {
+  float: left;
+  shape-outside: margin-box;
+  margin: 0 20px 5px 0;
+}
+
+
+.number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.number-container div {
+    text-align: center;
+    margin: 0px;
+}
+
+.number-container h2 {
+	font-size: 30px;
+	color: #00008B;
+	font-weight: bold;
+	margin: 0px;
+
+}
+
+.number-container p {
+	color: #00008B;
+	font-weight: bold;
+	margin: 0px;
+
+}

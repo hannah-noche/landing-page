@@ -1,0 +1,52 @@
+.container {
+	width: 700px;
+	margin: 10px auto;
+}
+
+.container h2 {
+	font-size: 25px;
+	background-size: bold;
+	margin: 25px 0px 5px;
+}
+
+.container .chiffres h2 {
+	margin: 50px 0px 0px;
+}
+
+.container .category h2 {
+	margin: 55px 0px 0px;
+}
+
+.container .testimonial h2 {
+	margin: 50px 0px 0px;
+}
+
+@media (max-width : 960px) {
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width : 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width : 720px) {
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width : 540px) {
+	.container{
+		width: 300px;
+	}
+}
+
+@media (max-width : 500px) {
+	.container{
+		width: 400px;
+	}
+}
